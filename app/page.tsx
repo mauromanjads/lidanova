@@ -12,9 +12,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Confianza />
-      <Servicios />
-      <Productos />
+      <Confianza />     
       <Contacto />
       <Footer />
       <ClientScripts />

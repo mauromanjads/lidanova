@@ -29,11 +29,11 @@ export default function Footer() {
           <div className="footer-col">
               <h4>Enlaces</h4>
               <ul>
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#confianza">Experencia</a></li>
-              <li><a href="#servicios">Servicios</a></li>               
-              <li><a href="#productos">Productos</a></li>               
-              <li><a href="#contacto">Contacto</a></li>
+              <li><a href="./">Inicio</a></li>
+              <li><a href="./lirasoft">Lirasoft</a></li>
+              <li><a href="./lidasoft">Lidasoft</a></li>               
+              <li><a href="./cubicaje-3d">Cubicaje</a></li>               
+              <li><a href="./chatbots">Chatbots</a></li>
               </ul>
           </div>
 

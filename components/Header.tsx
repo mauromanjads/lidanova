@@ -3,12 +3,12 @@ export default function Header() {
     <header>
       <div className="container">
         <nav>
-          <a href="#inicio" className="logo">LIDANOVA</a>
+          <a href="./" className="logo">LIDANOVA</a>
           <ul className="nav-links">
-            <li><a href="#confianza">Experiencia</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="./lirasoft">Lirasoft</a></li>
+            <li><a href="./lidasoft">Lidasoft</a></li>
+            <li><a href="./cubicaje-3d">Cubicaje</a></li>
+            <li><a href="./chatbots">Chatbots</a></li>
           </ul>
         </nav>
       </div>

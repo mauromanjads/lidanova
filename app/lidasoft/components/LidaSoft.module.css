@@ -1,0 +1,361 @@
+.hero {
+  padding: 140px 0 120px 0;
+  background: linear-gradient(135deg, #0F1A3D 0%, #2C3E8E 50%, #6C5BFF 120%);
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 80px auto;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  background: rgba(108, 91, 255, 0.1);
+  color: #FFFFFF;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(108, 91, 255, 0.25);
+}
+
+/* Título */
+.title {
+  font-size: 52px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+/* Descripción */
+.description {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 40px;
+}
+
+/* Botones */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  background: #6C5BFF;
+  color: #FFFFFF;
+  padding: 14px 32px;
+  border-radius: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(255, 149, 0, 0.35);
+}
+
+.primaryBtn:hover {
+  background: #8C7FFF;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(255, 160, 0, 0.4);
+}
+
+.secondaryBtn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 14px 32px;
+  border-radius: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+  background: rgba(108, 91, 255, 0.1);
+}
+
+/* Video */
+.videoSection {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.videoTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.videoWrapper {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ===== SECCIÓN PROBLEMA ===== */
+
+.problema {
+  padding: 120px 24px;
+  background: #E6E9FF;
+}
+
+.problemaContainer {
+  text-align: center;
+}
+
+.problemaTitle {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 60px;
+  color: #1E3A8A;
+}
+
+.problemaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  text-align: left;
+}
+
+.problemaList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.problemaList li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  color: #374785;
+  line-height: 1.6;
+}
+
+.problemaList li::before {
+  content: "✕";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #FF6600;
+  font-weight: bold;
+}
+
+/* ===== SECCIÓN PROCESO ===== */
+
+.proceso {
+  padding: 140px 24px;
+  background: linear-gradient(135deg, #1A2345 0%, #3C4E9B 100%);
+  color: #F8FAFF;
+}
+
+.procesoContainer {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.procesoTitle {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 90px;
+}
+
+.procesoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  text-align: left;
+}
+
+.procesoCard {
+  position: relative;
+  padding: 40px 28px 28px 28px;
+  border-radius: 22px;
+  background: rgba(108, 91, 255, 0.08);
+  border: 1px solid rgba(108, 91, 255, 0.15);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.procesoCard:hover {
+  transform: translateY(-6px);
+  border-color: #FF6600;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.procesoNumber {
+  position: absolute;
+  top: -40px;
+  left: 15px;
+  font-size: 110px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #FF6600, #FF9900);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.25;
+  z-index: 0;
+}
+
+.procesoCard h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.procesoCard p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
+
+/* ===== SECCIÓN SOLUCIÓN ===== */
+
+.solucion {
+  padding: 140px 24px;
+  background: linear-gradient(135deg, #0F1A3D 0%, #FF6600 140%);
+  color: #FFFFFF;
+}
+
+.solucionContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.solucionTitle {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.solucionText {
+  font-size: 20px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ===== SECCIÓN SERVICIOS ===== */
+
+.servicios {
+  padding: 140px 24px;
+  background: #E6E9FF;
+}
+
+.serviciosContainer {
+  text-align: center;
+}
+
+.serviciosTitle {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 80px;
+  color: #1E3A8A;
+}
+
+.serviciosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  text-align: left;
+}
+
+.servicioCard {
+  background: #FFFFFF;
+  padding: 28px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid #D1D5DB;
+}
+
+.servicioCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  border-color: #FF6600;
+}
+
+.servicioCard h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #FF6600;
+}
+
+.servicioCard p {
+  font-size: 15px;
+  color: #374785;
+  line-height: 1.6;
+}
+
+/* ===== SECCIÓN CTA FINAL ===== */
+
+.cta {
+  padding: 160px 24px;
+  background: linear-gradient(135deg, #1A2345 0%, #FF6600 120%);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ctaContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.ctaText {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 18px 42px;
+  background: #FFFFFF;
+  color: #1E3A8A;
+  border-radius: 18px;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  transform: translateY(-4px);
+  background: #E6E9FF;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}

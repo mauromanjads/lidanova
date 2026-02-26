@@ -1,4 +1,17 @@
 export default function Confianza() {
+ 
+   const productos = [
+    
+    {
+      icon: "🗺️",
+      title: "Planos Interactivos",
+      desc: "Visualización dinámica de proyectos mediante navegación interactiva que mejora la experiencia comercial y operativa.",
+      link: "https://geoportal-kappa.vercel.app/plano",
+      label: "Ver demo →",
+    }
+  ];
+
+ 
   return (
     <section id="confianza" className="services fade-in-section">
       <div className="container">
@@ -49,6 +62,25 @@ export default function Confianza() {
             ))}
 
           </div>
+
+          <div className="services-grid">
+              {productos.map((p, i) => (
+                <a
+                  key={i}
+                  href={p.link}
+                  target="_blank"
+                  className="service-card product-card"
+                >
+                  <div className="service-icon">{p.icon}</div>
+                  <h3>{p.title}</h3>
+                  <p>{p.desc}</p>
+                  <span className="product-link">{p.label}</span>
+                </a>
+              ))}
+        </div>
+
+
+
         </div>
       </div>
     </section>
