@@ -595,6 +595,7 @@ display:flex;
 flex-direction:column;
 gap:12px;
 margin-top:20px;
+
 }
 
 .lead-form input,
@@ -602,21 +603,9 @@ margin-top:20px;
 padding:12px;
 border-radius:8px;
 border:none;
+background-color: white;
+color:black;
 }
-
-
-
-
-.lead-form input::placeholder,
-.lead-form textarea::placeholder {
-  color: #94a3b8;
-}
-
-.lead-form textarea {
-  min-height: 120px;
-  resize: none;
-}
-
 
  .video-row {
     display: flex;
