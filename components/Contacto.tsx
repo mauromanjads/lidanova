@@ -20,24 +20,25 @@ export default function Contacto() {
           </a>
 
           <form
-            action="https://formsubmit.co/mauromanja@gmail.com"
-            method="POST"
-            className="lead-form"
-          >
-            <input type="text" name="nombre" placeholder="Nombre" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="text" name="empresa" placeholder="Empresa" />
-            <textarea name="mensaje" placeholder="Cuéntanos qué necesitas" required />
-            <button type="submit" className="btn btn-primary">
-              Solicitar contacto
-            </button>
+              action="https://formsubmit.co/mauromanja@gmail.com"
+              method="POST"
+              className="lead-form"
+            >
+              <input type="text" name="nombre" placeholder="Nombre" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="text" name="empresa" placeholder="Empresa" />
+              <textarea name="mensaje" placeholder="Cuéntanos qué necesitas" required />
 
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_subject" value="Nuevo Lead Lidanova 🚀" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="lidanova.com/gracias" />
-            <input type="hidden" name="_autoresponse" value="Gracias por escribirnos 🚀" />
-          </form>
+              <button type="submit" className="btn btn-primary">
+                Solicitar contacto
+              </button>
+
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="Nuevo Lead Lidanova 🚀" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="https://www.lidanova.com/gracias" />
+              <input type="hidden" name="_autoresponse" value="Gracias por escribirnos 🚀" />
+            </form>
 
         </div>
       </div>
