@@ -35,7 +35,7 @@ export default function Contacto() {
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="Nuevo Lead Lidanova 🚀" />
             <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="/gracias" />
+            <input type="hidden" name="_next" value="lidanova.com/gracias" />
             <input type="hidden" name="_autoresponse" value="Gracias por escribirnos 🚀" />
           </form>
 
