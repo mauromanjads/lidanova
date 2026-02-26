@@ -23,6 +23,12 @@ export default function Contacto() {
               action="https://formsubmit.co/mauromanja@gmail.com"
               method="POST"
               className="lead-form"
+              onSubmit={() => {
+                setTimeout(() => {
+                  window.location.href = "/gracias";
+                }, 800);
+              }}
+              
             >
               <input type="text" name="nombre" placeholder="Nombre" required />
               <input type="email" name="email" placeholder="Email" required />
@@ -35,8 +41,7 @@ export default function Contacto() {
 
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="Nuevo Lead Lidanova 🚀" />
-              <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://www.lidanova.com/gracias" />
+              <input type="hidden" name="_template" value="table" />             
               <input type="hidden" name="_autoresponse" value="Gracias por escribirnos 🚀" />
             </form>
 
