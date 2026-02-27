@@ -32,11 +32,11 @@
 
 /* Título */
 .title {
-  font-size: 52px;
-  line-height: 1.1;
+  font-size: 2.3rem;
+  line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
 }
 
 /* Descripción */
@@ -178,7 +178,7 @@
 }
 
 .procesoTitle {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 90px;
   color: #ffffff;
@@ -333,8 +333,7 @@
 }
 
 .ctaTitle {
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 38px;
   margin-bottom: 30px;
   line-height: 1.2;
 }

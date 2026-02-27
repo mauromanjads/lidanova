@@ -32,11 +32,11 @@
 
 /* Título */
 .title {
-  font-size: 52px;
-  line-height: 1.1;
-  font-weight: 800;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
 }
 
 /* Descripción */
@@ -129,7 +129,7 @@
 
 .problemaTitle {
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 60px;
   color: #2E7D32;
 }
@@ -180,8 +180,8 @@
 }
 
 .procesoTitle {
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 90px;
 }
 
@@ -225,12 +225,13 @@
 
 .procesoCard h4 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 12px;
+  color: #ca9e0c;
 }
 
 .procesoCard p {
-  font-size: 15px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
 }
@@ -250,8 +251,8 @@
 }
 
 .solucionTitle {
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }
@@ -263,55 +264,46 @@
 }
 
 /* ===== SECCIÓN SERVICIOS ===== */
-
 .servicios {
-  padding: 140px 24px;
+  padding: 120px 24px;
   background: #E6F3EC;
 }
 
 .serviciosContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Texto */
+.servicioTexto {
+  flex: 1;
+  min-width: 300px;
   text-align: center;
 }
 
 .serviciosTitle {
   font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 80px;
+  font-weight: 700;
+  margin-bottom: 20px;
   color: #2E7D32;
 }
 
-.serviciosGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
-  text-align: left;
-}
-
-.servicioCard {
-  background: #FFFFFF;
-  padding: 28px;
-  border-radius: 20px;
-  transition: all 0.3s ease;
-  border: 1px solid #D1D5DB;
-}
-
-.servicioCard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
-  border-color: #43A047;
-}
-
-.servicioCard h3 {
+.serviciosDescripcion {
   font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: #43A047;
+  color: #2E7D32;
+  line-height: 1.6;
 }
 
-.servicioCard p {
-  font-size: 15px;
-  color: #3E7D5E;
-  line-height: 1.6;
+/* Imagen / SVG */
+.sistemaImage {
+  
+  min-width: 300px;
+  text-align: -webkit-center;
 }
 
 /* ===== SECCIÓN CTA FINAL ===== */
@@ -329,8 +321,8 @@
 }
 
 .ctaTitle {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }

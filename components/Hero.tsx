@@ -20,7 +20,7 @@ export default function Hero() {
           
 
           {/* Título */}
-          <h1 style={{ fontSize: "48px", lineHeight: "1.2", fontWeight: 800 }}>
+          <h1 style={{ fontSize: "38px", lineHeight: "1.2", fontWeight: 800 }}>
             Impulsa tu negocio con{" "}
             <span className="gradient-text">
               Lidasoft, Lirasoft y chatbots a medida

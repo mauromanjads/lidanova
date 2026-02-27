@@ -32,9 +32,9 @@
 
 /* Título */
 .title {
-  font-size: 52px;
-  line-height: 1.1;
-  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 24px;
 }
@@ -161,8 +161,8 @@
 }
 
 .ctaTitle {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }

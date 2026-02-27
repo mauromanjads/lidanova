@@ -32,11 +32,11 @@
 
 /* Título */
 .title {
-  font-size: 52px;
-  line-height: 1.1;
-  font-weight: 800;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 /* Descripción */
@@ -128,8 +128,8 @@
 }
 
 .problemaTitle {
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 34px;
+  font-weight: 700;
   margin-bottom: 60px;
   color: #1E3A8A;
 }
@@ -180,8 +180,8 @@
 }
 
 .procesoTitle {
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 90px;
 }
 
@@ -250,8 +250,8 @@
 }
 
 .solucionTitle {
-  font-size: 38px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }
@@ -329,8 +329,8 @@
 }
 
 .ctaTitle {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 1.2;
 }
