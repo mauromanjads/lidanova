@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./Agente.module.css";
-import ChatbotIllustration from "@/public/lidabot.png"; // reemplaza con tu imagen
+import ChatbotIllustration from "@/public/agente.png"; // reemplaza con tu imagen
 
 export default function AgenteSolucion() {
   return (
@@ -38,12 +38,15 @@ export default function AgenteSolucion() {
               <h3 className={styles.cardTitle}>Vigilancia Judicial Inteligente (SAMAI)</h3>
               <p>Monitorea automáticamente procesos judiciales, consulta estados electrónicos y genera alertas oportunas sobre actuaciones, traslados y vencimiento de términos.</p>
             </article>
+          </div>
+
+          <div className={styles.imageRow}>
             <div className={styles.solucionImageWrapper}>
               <Image
                 src={ChatbotIllustration}
                 alt="Agente de IA solución"
-                width={420}
-                height={420}
+                width={500}
+                height={500}
                 className={styles.roundedImage}
               />
             </div>
