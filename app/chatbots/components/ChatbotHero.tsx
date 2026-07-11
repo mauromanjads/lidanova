@@ -9,12 +9,12 @@ export default function ChatbotHero() {
         <div className={styles.text}>
 
           <h1 className={styles.title}>
-          LIDABOT es un Chatbot Inteligente
+          LIDABOT es un Agente de IA
           </h1>
         
 
           <p className={styles.description}>
-            Habla con tus clientes sin esfuerzo. Un chatbot inteligente que atiende consultas, 
+            Habla con tus clientes sin esfuerzo. Un agente de IA que atiende consultas, 
             genera leads y mantiene felices a tus usuarios, 24/7
           </p>
 
@@ -38,7 +38,7 @@ export default function ChatbotHero() {
         <div className={styles.videoSection}>
           <div>
             <h3 className={styles.videoTitle}>
-              Chatbot Inteligente para Ventas
+              Agente de IA para Ventas
             </h3>
 
             <div className={styles.videoWrapper}>

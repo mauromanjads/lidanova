@@ -40,7 +40,7 @@ export default function Confianza() {
                 url: "1167918931",
               },
               {
-                title: "Chatbot Inteligente para Ventas",
+                title: "Agente de IA para Ventas",
                 url: "1167919498",
               },
               {

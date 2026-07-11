@@ -85,7 +85,7 @@ export default function Header() {
               href="./chatbots"
               className="text-[var(--color-text-muted)] hover:text-[var(--color-blue)] transition-colors"
             >
-              Chatbots
+              Agentes de IA
             </a>
           </li>
         </ul>
@@ -123,7 +123,7 @@ export default function Header() {
               onClick={() => setIsOpen(false)}
               style={{ paddingBottom: "15px" }}
             >
-              Chatbots
+              Agentes de IA
             </a>
           </div>
      )}

@@ -1,7 +1,7 @@
 export default function Servicios() {
   const servicios = [
     { icon: "🌐", title: "Desarrollo Web", desc: "Aplicaciones modernas optimizadas para rendimiento, seguridad y escalabilidad." },
-    { icon: "🤖", title: "Automatización con IA", desc: "Chatbots y asistentes inteligentes que reducen costos y mejoran atención." },
+    { icon: "🤖", title: "Automatización con IA", desc: "Agentes de IA y asistentes inteligentes que reducen costos y mejoran atención." },
     { icon: "⚙️", title: "Software a Medida", desc: "Sistemas empresariales adaptados a procesos reales de negocio." },
     { icon: "☁️", title: "Cloud & DevOps", desc: "Infraestructura confiable, despliegue continuo y optimización." },
     { icon: "🔗", title: "Integraciones", desc: "Conectamos plataformas, APIs y sistemas existentes." },

@@ -33,7 +33,7 @@ export default function Footer() {
               <li><a href="./lirasoft">Lirasoft</a></li>
               <li><a href="./lidasoft">Lidasoft</a></li>               
               <li><a href="./cubicaje-3d">Cubicaje</a></li>               
-              <li><a href="./chatbots">Chatbots</a></li>
+              <li><a href="./chatbots">Agentes de IA</a></li>
               </ul>
           </div>
 

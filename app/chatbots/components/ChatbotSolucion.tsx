@@ -11,10 +11,10 @@ export default function ChatbotSolucion() {
         {/* Texto */}
         <div className={styles.solucionTextWrapper}>
           <h2 className={styles.solucionTitle}>
-            Cómo nuestro Chatbot transforma tu negocio
+            Cómo nuestros Agentes de IA transforman tu negocio
           </h2>
           <p className={styles.solucionText}>
-            Nuestro asistente virtual automatiza tareas repetitivas, responde
+            Nuestro agente virtual automatiza tareas repetitivas, responde
             preguntas al instante y aprende de cada interacción. Así, tu equipo
             se enfoca en lo importante y tus clientes reciben atención de
             calidad 24/7.
@@ -33,7 +33,7 @@ export default function ChatbotSolucion() {
         <div className={styles.solucionImageWrapper}>
           <Image
             src={ChatbotIllustration}
-            alt="Chatbot solución"
+            alt="Agente de IA solución"
             width={450}
             height={450}
             style={{ borderRadius: "24px" }}
