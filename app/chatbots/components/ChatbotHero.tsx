@@ -9,13 +9,11 @@ export default function ChatbotHero() {
         <div className={styles.text}>
 
           <h1 className={styles.title}>
-          LIDABOT es un Agente de IA
+          LIDABOT es un Agente conversacional de Inteligencia Artificial
           </h1>
-        
-
+          
           <p className={styles.description}>
-            Habla con tus clientes sin esfuerzo. Un agente de IA que atiende consultas, 
-            genera leads y mantiene felices a tus usuarios, 24/7
+           La información de tu empresa está dispersa en múltiples sistemas, dificultando el acceso rápido y la toma de decisiones. Nuestros Agentes Inteligentes centralizan la información, automatizan procesos y optimizan tu operación con Inteligencia Artificial
           </p>
 
           <div className={styles.buttons}>
