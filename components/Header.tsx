@@ -88,6 +88,14 @@ export default function Header() {
               Agentes de IA
             </a>
           </li>
+          <li>
+            <a
+              href="./agentes"
+              className="text-[var(--color-text-muted)] hover:text-[var(--color-blue)] transition-colors"
+            >
+              Agente Jurídico
+            </a>
+          </li>
         </ul>
 
         {/* Menú Móvil */}
@@ -124,6 +132,14 @@ export default function Header() {
               style={{ paddingBottom: "15px" }}
             >
               Agentes de IA
+            </a>
+            <a
+              href="./agentes"
+              className="block w-full text-center py-4 text-[var(--color-text-muted)] hover:text-[var(--color-blue)] transition-colors"
+              onClick={() => setIsOpen(false)}
+              style={{ paddingBottom: "15px" }}
+            >
+              Agente Jurídico
             </a>
           </div>
      )}
